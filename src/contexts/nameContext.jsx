@@ -31,10 +31,10 @@ function nameReducer (state, action) {
 }
 
 export const NameProvider = ( {children}) => {
-  const [state, distpatch] =  useReducer(nameReducer, initialState)
+  const [state, dispatch] =  useReducer(nameReducer, initialState)
 
     return (
-        <NameContext.Provider value = {[state, distpatch]}>
+        <NameContext.Provider value = {[state, dispatch]}>
             {children}
         </NameContext.Provider>
     )
