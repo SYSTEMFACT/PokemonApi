@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import { types, useName } from "../../../contexts/NameContext"
+import { types, useName } from "../../../contexts/NameContexts"
 import { useNavigate } from "react-router"
 
 function NameForm() {
