@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router"
-import { useName } from "../contexts/NameContext"
+import { useName } from "../contexts/NameContexts"
 
 function Protected( {children}) {
     const [state] = useName()
