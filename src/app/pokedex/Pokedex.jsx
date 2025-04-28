@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
-import { useName } from "../../contexts/NameContext"
+import { useName } from "../../contexts/NameContexts"
 import PokemonsList from "./components/PokemonsList"
 import PokemonCard from "./components/PokemonCard"
 import { useNavigate } from "react-router"
