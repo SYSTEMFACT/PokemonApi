@@ -4,7 +4,7 @@ import { HashRouter } from 'react-router-dom'
 import App from './routes/App.jsx'
 
 import './index.css'
-import { NameProvider } from './contexts/NameContext.jsx'
+import { NameProvider } from './contexts/NameContexts.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
